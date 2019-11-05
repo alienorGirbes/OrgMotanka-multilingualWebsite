@@ -1,0 +1,25 @@
+{
+    "name": "alienorgirbes/orgmotanka",
+    "description": "multilingual website for organisation motanka",
+    "type": "website",
+    "keywords": ["organization", "humanitarian", "Ukraine","help", "aider", "humanitaire", "motanka"],
+    "homepage": "https://motanka.fr",
+    "authors": [
+        {
+            "name": "Alienor Girbes",
+            "email": "alienor@laplumeblanche.com",
+            "homepage": "http://www.laplumeblanche.com",
+            "role": "Developper"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+		"psr-4": {
+		  "App\\": "app/class/"
+		}
+	},
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "doctrine/orm": "*"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "lang": "uk",
+    "home": "додому",
+    "homeTitle": "Організація Мотанки",
+    "textArea": "présentation",
+    "navbar" : {
+        "logo" : "Організація Мотанки",
+        "whoarewe" : "Хто ми?",
+        "ouractions": "Наші дії",
+        "thenews": "Новини",
+        "Ourcraftsmen": "Наші майстри"
+    }
+  }
+  

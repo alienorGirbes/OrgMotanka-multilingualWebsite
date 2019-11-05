@@ -1,0 +1,13 @@
+{
+  "lang": "en",
+  "home": "Home",
+  "homeTitle": "Motanka Organization",
+  "textArea": "présentation",
+  "navbar" : {
+    "logo" : "Motanka Organization",
+    "whoarewe" : "Who are we ?",
+    "ouractions": "Our actions",
+    "thenews": "News",
+    "Ourcraftsmen": "Our craftsmen"
+  }
+}

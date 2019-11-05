@@ -1,0 +1,23 @@
+
+
+*, html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --grisclair:rgb(224, 218, 206);
+    --beige:#CA9D66;
+    --rouge:#A7413F;
+    --gris:#666666;}
+
+body
+{
+    color: var(--beige);
+    font-size: 1rem; font-family: 'Lato', sans-serif;
+    background-color:var(--grisclair);
+    margin: auto;
+    text-align: left;
+    min-height: 100%;
+
+}

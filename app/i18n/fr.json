@@ -1,0 +1,13 @@
+{
+  "lang": "fr",
+  "home": "Accueil",
+  "homeTitle": "Organisation Motanka",
+  "textArea": "présentation",
+  "navbar" : {
+    "logo" : "Organisation Motanka",
+    "whoarewe" : "Qui sommes-nous ?",
+    "ouractions": "Nos actions",
+    "thenews": "Les actualités",
+    "Ourcraftsmen": "Nos artisans"
+  }
+}
