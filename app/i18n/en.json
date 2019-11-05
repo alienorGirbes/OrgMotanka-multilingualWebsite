@@ -8,6 +8,25 @@
     "whoarewe" : "Who are we ?",
     "ouractions": "Our actions",
     "thenews": "News",
-    "Ourcraftsmen": "Our craftsmen"
+    "ourcraftsmen": "Our craftsmen",
+    "donate": "Donate",
+    "contact": "Contact us"
+  },
+  "pageWhoweare" : {
+    "title" : "Who we are? ",
+    "subTitle" : "The Motanka project is a Franco-Ukrainian citizen initiative",
+    "textParagraphe1" : "The name Motanka was chosen because the Motanka doll is the Ukrainian symbol of the protection of home. The Motanka Organization Facebook page represents the Ukrainian charity fund Motanka, as well as the French association Motanka. These two organizations were created with the aim of working together to help war victims in the Donbass region. Our goal is to restore a decent living space to the victims of the ongoing conflict in Ukraine and to allow the local population to rebuild themselves in the present to imagine and build the future. Our actions are mainly focused on housing repair and employment. Our site is currently under construction, so for the coming months you can follow us on this page and live with us, the evolution of the project. ",
+    "textParagraphe2" : "We are convinced that believing in something is not enough, that we must fight for what we believe otherwise our values no longer exist, they will only be wind. Nothing will change if nobody acts, because there is no hero who comes to settle everything for us.",
+    "textHighlight1" : "This person is us! It's all of us!",
+    "textParagraphe3" : "Act, do what you can and best, put your brick on the ground, and someone else will put his brick on it and step by step things will be built. It does not depend on an individual but on each little gesture of each individual.",
+    "textHighlight2" : "It's building, it's sowing, it's moving forward, changing things, not being a spectator.",
+    "textParagraphe4" :  "Each of us bringing his brick.",
+    "textHighlight3" : "Because it is in this type of initiative that the word « Together » takes all its strength, that we invite you to follow us, support us, contribute, share, like, be there simply... As Gandhi rightly said, « Be the change that you wish to see in the world.»"
+  },
+  "footer" : {
+    "facebook" : "Follow us on facebook"
   }
 }
+
+
+ 

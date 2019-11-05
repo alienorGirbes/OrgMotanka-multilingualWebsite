@@ -8,6 +8,23 @@
     "whoarewe" : "Qui sommes-nous ?",
     "ouractions": "Nos actions",
     "thenews": "Les actualités",
-    "Ourcraftsmen": "Nos artisans"
+    "ourcraftsmen": "Nos artisans",
+    "donate": "Faire un don",
+    "contact": "Contactez-nous"
+
+  },
+  "pageWhoweare" : {
+    "title" : "Qui sommes-nous ?",
+    "subTitle" : "Le projet Motanka est une initiative citoyenne franco-ukrainienne",
+    "textParagraphe1" : "Le nom Motanka fut choisi car la poupée Motanka est le symbole ukrainien de la protection du foyer. La page Facebook Organisation Motanka représente le fonds de charité Ukrainien Motanka, ainsi que l’association française Motanka. Ces deux organisations ont été crées dans le but de travailler ensemble pour venir en aide aux victimes de guerre dans la région du Donbass. Notre but est de redonner un lieu de vie décent aux victimes du conflit qui se déroule toujours actuellement en Ukraine et de permettre à la population locale de se reconstruire au présent afin d’imaginer et de construire le future.<br> Nos actions sont principalement ciblées sur la réparation des logements, l’emploi et la vente de produits uniques, fait mains, afin d'assurer un minimum de revenus là ou la guerre le leurs a enlevé.",
+    "textParagraphe2" : "Nous sommes persuadés que croire en quelque chose ne suffit pas, qu’il faut se battre pour ce à quoi l’on croit sans cela nos valeurs n’existent plus, elles ne seront que du vent. Rien ne changera si personne n’agit, car il n’y pas de héros qui vienne tout régler pour nous.",
+    "textHighlight1" : "Cette personne, c’est nous, c'est vous !",
+    "textParagraphe3" : "Agir, faire ce que l’on peut et de son mieux, poser sa brique par terre, et quelqu’un d’autre posera sa brique dessus et pas à pas les choses se construiront. Cela ne dépend pas d’un individu mais de chaque petit geste de chaque individu.",
+    "textHighlight2" : "C’est bâtir, c’est semer, c’est avancer, changer les choses, ne pas être spectateur.",
+    "textParagraphe4" :  "Chacun de nous apportant sa brique.",
+    "textHighlight3" : "Parce que c’est dans ce type d’initiative que le mot « Ensemble » prend toute sa force, que nous vous invitons à nous suivre, nous soutenir, contribuer, partager, liker, être là tout simplement… Comme l’a si justement dit Gandhi : « Soyez le changement que vous voulez voir dans le monde »."
+  },
+  "footer" : {
+    "facebook" : "Rejoignez-nous sur facebook"
   }
 }

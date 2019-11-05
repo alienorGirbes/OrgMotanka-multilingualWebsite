@@ -1,102 +1,166 @@
-/* Custom Stylesheet */
+/* FONT 
 
-
-/* LISTE ADOBE FONT 
-Cabrito Norm Medium
-font-family: cabrito-normal, sans-serif;
-font-weight: 500;
-font-style: normal;
-
-Mr Eaves Mod OT Reg
-font-family: mr-eaves-modern, sans-serif;
+STIX Two Math Regular
+font-family: stix-two-math, serif;
 font-weight: 400;
 font-style: normal;
 
-Mr Eaves Mod OT Bold Italic
-font-family: mr-eaves-modern, sans-serif;
-font-weight: 700;
-font-style: italic;
-
-Mr Eaves Mod OT Bold
-font-family: mr-eaves-modern, sans-serif;
-font-weight: 700;
-font-style: normal;
-
-Mr Eaves Mod OT Reg Italic
-font-family: mr-eaves-modern, sans-serif;
+STIX Two Text Italic
+font-family: stix-two-text, serif;
 font-weight: 400;
 font-style: italic;
 
-Mr Eaves San OT Reg Italic
-font-family: mr-eaves-sans, sans-serif;
-font-weight: 400;
+STIX Two Text Bold Italic
+font-family: stix-two-text, serif;
+font-weight: 700;
 font-style: italic;
 
-Mr Eaves San OT Reg
-font-family: mr-eaves-sans, sans-serif;
+STIX Two Text Regular
+font-family: stix-two-text, serif;
 font-weight: 400;
 font-style: normal;
 
-Mr Eaves San OT Bold
-font-family: mr-eaves-sans, sans-serif;
+STIX Two Text Bold
+font-family: stix-two-text, serif;
 font-weight: 700;
 font-style: normal;
 
-Mr Eaves San OT Bold Italic
-font-family: mr-eaves-sans, sans-serif;
-font-weight: 700;
-font-style: italic;
+font-family: macho, sans-serif; 
 
 */
 
-:root {
-    --vertmoyen : #0c8d61;
-    --gris : gray;
-  }
-
-h1 {font-size: 2rem !important;
-    font-family: cabrito-normal, sans-serif; 
-    color : var(--vertmoyen);}
-
-h2 {font-size: 1.5rem !important;
-    font-family: mr-eaves-sans, sans-serif !important;
-    font-weight: 700 !important;
-    text-transform: uppercase !important;
-    color : var(--vertmoyen) !important;
+ 
+*, html, body {
+    padding: 0px;
+    margin: 0px;
 }
 
-/***********************************  HEADER  ******************************************/
+:root{
+    --grisclair:rgb(224, 218, 206);
+    --beige:#CA9D66;
+    --rouge:#A7413F;
+    --gris:#666666;}
 
-#logo {
-    font-family: cabrito-normal, sans-serif; 
-    color : white;
-    font-size: 2.4rem ;
+body
+{
+    color: var(--beige);
+    font-size: 1rem; 
+    font-family: macho, sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+    background-color:var(--grisclair);
+    margin: auto;
+    text-align: left;
+    min-height: 100%;
 }
 
-p {
-    font-family: mr-eaves-modern, sans-serif !important;
-    font-size: 1.1rem ;
+/***************************TEXT*****************************************/
+
+p { 
+    color: black; 
+    font-family: macho, sans-serif; 
+    font-weight: 400;
+    font-style: normal;
     text-align: justify;
-    text-justify:newspaper
 }
 
-/***********************************  DEV ******************************************/
-.gris {
-    background-color: var(--gris);
+
+h1 {
+    color: var(--rouge);
+    font-size: 1.7rem; 
+    font-family: stix-two-text, serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center; 
+    text-transform: uppercase ;
 }
 
-.perso_flex {
-    display : inline-flex; 
-    flex-direction: row;
-    flex-wrap: wrap;
+
+h2 { 
+    color: black; 
+    font-size: 1.3rem; 
+    font-family: stix-two-text, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center; 
+    /* text-transform: uppercase ; */
 }
 
-.perso_margin {
-    padding : 0.4rem;
+h3 { 
+    color: var(--rouge); 
+    font-size: 1.1rem; 
+    font-family: stix-two-text, serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left; 
 }
 
-.round_img {
-    margin: 0.4rem;
-    padding: initial;
+h4 { 
+    color: black; 
+    font-size: 1rem; 
+    font-family: macho, sans-serif; 
+    font-weight: 700;
+    font-style: normal;
+    text-align: center; 
+    text-transform: uppercase ;
+    padding: 5px; 
+}
 
+h6 { 
+    color: black; 
+    font-size: 1rem; 
+    font-family: macho, sans-serif; 
+    font-weight: 600;
+    font-style: normal;
+    text-align: left; 
+    text-transform: uppercase ;
+}
+
+legend { 
+    color: var(--beige); 
+    font-size: 0.9px; 
+    font-family: macho, sans-serif; 
+    font-weight: 200;
+    font-style: normal;
+    font-variant: small-caps;
+    text-align: left; 
+}
+
+.highlight {
+    color: var(--rouge); 
+    font-family: macho, sans-serif; 
+    font-weight: 600;
+    font-style: normal;
+    text-align: justify;
+}
+
+/******************************** PAGE *****************************************/
+
+nav {
+    background-color: var(--rouge) !important ;
+}
+
+.bg_beige {
+    background-color: var(--beige);
+}
+.bg_red {
+    background-color: var(--rouge);
+}
+
+/******************************** MNU *****************************************/
+
+.mnu_logo {
+    color: var(--beige) !important ;
+    font-size: 1.2rem; 
+    font-family: stix-two-text, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.img_logo {
+    width : 70px;
+    padding : 15px;
+}
+.nav_mnu {
+    height: inherit !important ;
 }
