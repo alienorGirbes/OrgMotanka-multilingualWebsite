@@ -1,5 +1,6 @@
 <?php
     require '../../vendor/autoload.php';
+    header('Content-Type: text/html; charset=utf-8');
     // include 'app/inc/inc.init.php';
 	$lang = new \App\Lang();
 	$json = $lang->expose();
