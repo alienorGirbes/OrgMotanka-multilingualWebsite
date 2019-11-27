@@ -14,7 +14,7 @@
         <li><a href="#whoarewe"><?= $json->navbar->whoarewe; ?></a></li>
         <!-- <li><a href="#"><?= $json->navbar->ouractions; ?></a></li> -->
         <!-- <li><a href="#"><?= $json->navbar->thenews; ?></a></li> -->
-        <!-- <li><a href="#"><?= $json->navbar->donate; ?></a></li> -->
+        <li><a href="don.php"><?= $json->navbar->donate; ?></a></li>
         <li><a class="btn-floating pulse bg_beige" href="mailto:contact@motanka.fr"><i class="material-icons">mail_outline</i></a></li>
 
                 <!-- Dropdown Trigger -->

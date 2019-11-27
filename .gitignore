@@ -15,3 +15,6 @@
 
 ### Fichier de note perso ###
 /note/
+
+### Config ###
+/app/public/config.php
