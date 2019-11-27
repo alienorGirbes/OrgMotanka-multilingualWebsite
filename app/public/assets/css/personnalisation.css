@@ -136,10 +136,6 @@ legend {
 
 /******************************** PAGE *****************************************/
 
-nav {
-    background-color: var(--rouge) !important ;
-}
-
 .bg_beige {
     background-color: var(--beige);
 }
@@ -147,20 +143,3 @@ nav {
     background-color: var(--rouge);
 }
 
-/******************************** MNU *****************************************/
-
-.mnu_logo {
-    color: var(--beige) !important ;
-    font-size: 1.2rem; 
-    font-family: stix-two-text, serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.img_logo {
-    width : 70px;
-    padding : 15px;
-}
-.nav_mnu {
-    height: inherit !important ;
-}

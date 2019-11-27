@@ -1,0 +1,106 @@
+/******************************** MNU & media queries*****************************************/
+
+.mnu_logo {
+    color: var(--beige) !important ;
+    font-size: 1.6rem; 
+    font-family: stix-two-text, serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height:1em;
+}
+
+.img_logo {
+    width : 100px;
+    padding : 10px;
+}
+.nav_mnu {
+    height: inherit !important ;
+}
+
+nav {
+    background-color: var(--rouge) !important ;
+    line-height: 3.5em !important ;
+}
+.i_mnu {
+    line-height: 0em !important ;
+}
+
+
+/********************* MENU & MEDIA QUERIES ***********************/
+
+.branding {
+    display: flex;
+    padding : 0px;
+    margin: 0px;
+}
+
+.mnu_fixed{
+    height: 110px;
+    position: fixed;
+}
+
+.mobile_mnu {
+    padding : 0px;
+    margin: 0px;
+    display: flex;
+    align-content : space-around;
+    flex-direction: column;
+}
+.perso_icon{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.submenu {
+    display: flex;
+    align-content : space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 600px) and (max-width: 860px)  /*affichage tablette*/
+{       
+    .mobile_mnu {
+        width: 100%;
+        align-content: center;
+        padding : 0px;
+        padding-top : 30px;
+        margin: 0px;
+        display: inline-flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .submenu {
+        flex-direction: row-reverse;
+    }
+    .ipad_margin {
+        padding-right : 30px;
+    }
+}
+
+@media screen and (min-width: 860px) and (max-width: 1840px) /*affichage grand ecran*/
+{       
+    .mobile_mnu {
+        width: 100%;
+        align-content: center;
+        padding : 0px;
+        padding-top : 30px;
+        margin: 0px;
+        display: inline-flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .submenu {
+        flex-direction: row-reverse;
+    }
+    .ipad_margin {
+        padding-right : 30px;
+    }
+    .desktop_mnu {
+        
+    }
+}
